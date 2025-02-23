@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroygilroy, Arial, sans-serif;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+main{
+    width: 100%;
+    height: 100%;
+    
+}
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+#nav_part1{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+#nav_part1 i{
+    color: rgb(116, 185, 185);
+    font-size: 30px;
+}
+#nav_part1 span{
+    color: rgb(63, 122, 122);
+}
+#nav_part2{
+    width: 40%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 3px black;
+
+}
+#nav_part3{
+    width:20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 30px;
+}
+#nav_part3 button{
+    background-color: rgb(116, 185, 185);
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+#page1{
+    width: 100%;
+    height: calc(100% - 100px);
+    display: flex;
+}
+#part1{
+    width: 50%;
+    height: 100%;
+}
+#part1 h1{
+    font-size: 70px;
+    line-height: 80px;
+}
+#part1 h1 span{
+    border: 2px solid rgb(85, 165, 230);
+    border-radius: 50px;
+    padding: 5px;
+}
+#part1{
+    padding: 100px;
+}
+#part1 h5{
+    font-size: 20px;
+    margin-top: 30px;
+}
+#part1 button{
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 80px;
+
+}
+#part1 #btn{
+    background-color: rgb(72, 72, 206);
+    color: white;
+}
+#part1 #btn:hover{
+    background-color: #748989;
+    cursor:pointer;
+    color: black;
+}
+#part2{
+    width: 45%;
+    height: 100%;
+    background-color: rgb(231, 163, 79); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 60%;
+    position: relative;
+}
+img{
+   width: 500px;
+    
+    
+    position: absolute;
+}
+.circle{
+    border-radius: 50%;
+background-color: rgb(116, 185, 185);
+width: 70%;
+height: 80%;
+}
